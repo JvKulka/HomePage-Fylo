@@ -8,6 +8,8 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/* CABECALHO */
+
 header {
     background-color: hsl(217, 28%, 15%);
     display: flex;
@@ -43,6 +45,8 @@ header a {
     cursor: pointer;
 }
 
+/* SESSAO INICIAL */
+
 .sessao-inicial {
     background-image: url(/images/bg-curvy-desktop.svg);
     background-position: bottom;
@@ -50,7 +54,7 @@ header a {
     background-repeat: no-repeat;
     background-color: hsl(217, 28%, 15%);
     height: 60rem;
-    padding-top: 3rem;
+    padding-top: 0.8rem;
 }
 
 .div-inicial {
@@ -60,8 +64,11 @@ header a {
     flex-direction: column;
 }
 
-.img-inicial {
-    width: 36rem;
+.img-centralizada {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .div-titulo {
@@ -106,4 +113,36 @@ header a {
     border: none;
     color: white;
     background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+}
+
+/* SESSAO INFORMACOES */
+.sessao-inf {
+    height: 60rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-inf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+
+.primeira-inf {
+    width: 320px;
+    margin: 80px;
+    padding: 30px;
+}
+
+.h1-inf {
+    text-align: center;
+    color: #ffffff;
+}
+
+.p-inf {
+    text-align: center;
+    color: #ffffff;
 }
