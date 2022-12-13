@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(218, 28%, 13%);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    background-color: hsl(217, 28%, 15%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.img-logo {
+    width: 140px;
+}
+
+.ul-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-header {
+    margin: 0px 25px;
+    list-style-type: none;
+    color: white;
+    opacity: 90%;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+header a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.sessao-inicial {
+    background-image: url(/images/bg-curvy-desktop.svg);
+    background-position: bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: hsl(217, 28%, 15%);
+    height: 60rem;
+    padding-top: 3rem;
+}
+
+.div-inicial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-inicial {
+    width: 36rem;
+}
+
+.div-titulo {
+    text-align: center;
+    max-width: 780px;
+}
+
+.div-paragrafo {
+    text-align: center;
+    max-width: 580px;
+}
+
+.h1-inicial {
+    color: white;
+    font-size: 2rem;
+    padding: 30px;
+    font-family: Raleway;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+}
+
+.p-inicial {
+    color: #ffffff;
+    opacity: 90%;
+    font-size: 1.06rem;
+    margin-bottom: 30px;
+    font-family: Raleway;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.8px;
+}
+
+.link-inicial {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.link-inicial button {
+    width: 220px;
+    height: 45px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+}
