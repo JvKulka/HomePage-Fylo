@@ -21,6 +21,7 @@ header {
 
 .img-logo {
     width: 140px;
+    padding: 15px;
 }
 
 .ul-header {
@@ -183,7 +184,7 @@ header a {
 
 .div-img-works {
     margin-right: 45px;
-    margin-top: 50px;
+    margin-top: 90px;
 }
 
 .h1-works {
