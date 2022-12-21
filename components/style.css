@@ -217,7 +217,7 @@ header a {
 /* SESSAO FEEDBACKS */
 
 .sessao-feedbacks {
-    height: 40rem;
+    height: 35rem;
 }
 
 .div-aspas {
@@ -226,8 +226,7 @@ header a {
 
 .img-aspas {
     position: absolute;
-    left: 305px;
-    margin: 0;
+    margin-left: 305px;
     padding: 0;
 }
 
@@ -273,6 +272,149 @@ header a {
     margin-top: 4px;
     font-size: 0.5rem;
     font-weight: 400;
+}
+
+/* SESSAO SUPORTE */
+
+.card-suporte {
+    max-width: 720px;
+    text-align: center;
+    padding: 45px 85px;
+    background-color: #1c2431;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.2);
+    position: absolute;
+}
+
+.h1-suporte {
+    color: white;
+    font-size: 28px;
+    font-family: Raleway;
+}
+
+.p-suporte {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    opacity: 80%;
+    max-width: 600px;
+}
+
+.input-suporte {
+    padding: 12px;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 380px;
+    height: 15px;
+    border: none;
+    padding-left: 25px;
+    margin-right: 15px;
+}
+
+.input-suporte, ::placeholder {
+    color: rgba(82, 80, 83, 0.514);
+}
+
+.link-suporte {
+    padding: 12px;
+    border-radius: 20px;
+    background: hsl(198, 60%, 50%);
+    border: none;
+    color: white;
+    width: 160px;
+    font-size: 11px;
+    font-weight: 700;
+    height: 40px;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    background-color: hsl(216, 53%, 9%);
+    padding: 150px 0px 20px 0px;
+}
+
+.div-logo-footer {
+    display: flex;
+    margin-bottom: 25px;
+    margin-left: 115px;
+}
+
+.div-foooter {
+    display: flex;
+    justify-content: space-around;
+}
+
+.div-flex {
+    display: flex;
+}
+
+.img-localizacao {
+    width: 11px;
+    height: 15px;
+    margin-right: 25px;
+    opacity: 80%;
+}
+
+.p-localizacao {
+    max-width: 250px;
+    color: white;
+    font-size: 12px;
+    opacity: 80%;
+}
+
+.div-contato {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.img-contato {
+    width: 15px;
+    height: 15px;
+    opacity: 80%;
+}
+
+.p-contato {
+    color: #ffffff;
+    margin-left: 25px;
+    opacity: 80%;
+    font-size: 12px;
+}
+
+.ul-links {
+    list-style-type: none;
+    margin: 0px 25px;
+}
+
+.li-link {
+    margin: 15px;
+}
+
+.li-link:first-child {
+    margin: 0px 15px;
+}
+
+.a-li {
+    text-decoration: none;
+    color: #ffffff;
+    opacity: 80%;
+    font-size: 14px;
+}
+
+.icons-footer {
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin: 0px 10px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    opacity: 80%;
 }
 
 /* MEDIA QUERIES */
