@@ -45,7 +45,6 @@ header {
 
 .li-header a {
     color: #ffffff;
-    transition: 0.4s;
 }
 
 .li-header a:hover {
