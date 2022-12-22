@@ -19,6 +19,10 @@ header {
     padding: 35px 20px;
 }
 
+#btn-mobile {
+    display: none;
+}
+
 .img-logo {
     width: 140px;
     padding: 15px;
@@ -34,11 +38,14 @@ header {
 .li-header {
     margin: 0px 25px;
     list-style-type: none;
-    color: white;
     opacity: 90%;
     font-family: Raleway;
     font-weight: 400;
     font-size: 0.9rem;
+}
+
+.li-header a {
+    color: #ffffff;
 }
 
 header a {
@@ -419,7 +426,48 @@ footer {
 
 /* MEDIA QUERIES */
 
-@media (max-width: 685px) {
+@media (max-width: 425px) {
+    .sessao-inf {
+        height: 110rem;
+        ;
+    }
+}
+
+@media (max-width: 470px) {
+    .sessao-inf {
+        height: 100rem;
+        ;
+    }
+
+    .img-logo {
+        width: 120px;
+    }
+}
+
+@media (max-width: 505px) {
+    #btn-mobile {
+        display: flex;
+        background: hsl(217, 28%, 15%);
+        border: none;
+        color: white;
+        font-size: 25px;
+        transition: 0.5s;
+    }
+
+    .ul-header {
+        position: absolute;
+        width: 100%;
+        margin-top: 25px;
+        right: 0;
+        visibility: hidden;
+    }
+
+    #nav.active .ul-header {
+        visibility: visible;
+    }
+}
+
+@media (max-width: 655px) {
     .h1-works {
         font-size: 1.4rem;
     }
@@ -445,10 +493,9 @@ footer {
     }
 }
 
-
 @media (max-width: 1292px) {
     .sessao-inf {
-        height: 105rem;
+        height: 95rem;
         ;
     }
 

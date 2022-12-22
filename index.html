@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="components/style.css">
     <link rel="stylesheet" href="components/fonts/fonts.css">
+
     <script src="https://kit.fontawesome.com/37fcbc67a8.js" crossorigin="anonymous"></script>
     <title>Fylo</title>
 </head>
@@ -14,21 +15,18 @@
 <body>
 
     <header>
-        <div>
-            <a href=""><img src="images/logo.svg" alt="logo" class="img-logo"></a>
-        </div>
 
-        <ul class="ul-header">
-            <a href="#">
-                <li class="li-header">Features</li>
-            </a>
-            <a href="">
-                <li class="li-header">Team</li>
-            </a>
-            <a href="">
-                <li class="li-header">Sing In</li>
-            </a>
-        </ul>
+        <a href=""><img src="images/logo.svg" alt="logo" class="img-logo"></a>
+
+        <nav id="nav">
+            <button id="btn-mobile" aria-label="Abrir Menu" aria-haspopup="true" aria-controls="ul-header"
+                aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+            <ul class="ul-header" role="menu">
+                <li class="li-header"><a href="">Features</a></li>
+                <li class="li-header"><a href="">Team</a></li>
+                <li class="li-header"><a href="">Sing In</a></li>
+            </ul>
+        </nav>
     </header>
 
     <section class="sessao-inicial">
@@ -214,7 +212,7 @@
             </div>
         </div>
     </footer>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
