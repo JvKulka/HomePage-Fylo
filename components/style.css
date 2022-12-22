@@ -45,6 +45,11 @@ header {
 
 .li-header a {
     color: #ffffff;
+    transition: 0.4s;
+}
+
+.li-header a:hover {
+    color: hsl(176, 68%, 64%);
 }
 
 header a {
@@ -125,6 +130,11 @@ header a {
     border: none;
     color: white;
     background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    transition: 0.4s;
+}
+
+.link-inicial button:hover {
+    transform: scale(1.04);
 }
 
 /* SESSAO INFORMACOES */
@@ -336,6 +346,11 @@ header a {
     height: 40px;
     cursor: pointer;
     margin-left: 15px;
+    transition: 0.4s;
+}
+
+.link-suporte:hover {
+    transform: scale(1.04);
 }
 
 
