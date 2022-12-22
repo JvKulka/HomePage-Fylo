@@ -226,9 +226,9 @@ header a {
     height: 35rem;
 }
 
-
 .img-aspas {
     position: absolute;
+    right: 340px;
 }
 
 .div-feedbacks {
@@ -264,6 +264,7 @@ header a {
 
 .p-feedbacks {
     color: #ffffff;
+    font-size: 0.95rem;
 }
 
 .name-perfil {
@@ -317,8 +318,6 @@ header a {
     width: 380px;
     height: 15px;
     border: none;
-    padding-left: 25px;
-    margin-right: 15px;
 }
 
 .input-suporte, ::placeholder {
@@ -336,7 +335,9 @@ header a {
     font-weight: 700;
     height: 40px;
     cursor: pointer;
+    margin-left: 15px;
 }
+
 
 /* FOOTER */
 footer {
@@ -345,14 +346,14 @@ footer {
 }
 
 .div-logo-footer {
-    display: flex;
-    margin-bottom: 25px;
-    margin-left: 115px;
+    margin-right: 120px;
 }
 
 .div-foooter {
     display: flex;
     justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 25px;
 }
 
 .div-flex {
@@ -444,6 +445,12 @@ footer {
     }
 }
 
+@media (max-width: 1200px) {
+    .div-logo-footer {
+        display: none;
+    }
+}
+
 @media (max-width: 1135px) {
     .sessao-works {
         margin: 80px 0 250px 0;
@@ -454,6 +461,24 @@ footer {
     .sessao-feedbacks {
         height: 70rem;
         margin: 0 45px;
+    }
+
+    .div-localizacao {
+        display: none;
+    }
+}
+
+@media (max-width: 766px) {
+    .input-suporte {
+        margin-bottom: 20px;
+    }
+
+    .link-suporte {
+        margin-left: 0;
+    }
+
+    .card-suporte {
+        max-width: 420px;
     }
 }
 
@@ -486,6 +511,21 @@ footer {
     .sessao-feedbacks {
         margin-top: -150px;
     }
+
+    .div-links {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .card-suporte {
+        max-width: 320px;
+    }
+
+    .input-suporte {
+        max-width: 300px;
+    }
+
 }
 
 @media (max-width: 505px) {
@@ -513,6 +553,23 @@ footer {
     .img-logo {
         margin-right: 200px;
     }
+
+    .input-suporte {
+        max-width: 185px;
+    }
+
+    .card-suporte {
+        max-width: 210px;
+        margin-bottom: 130px;
+    }
+
+    .link-suporte {
+        width: 140px;
+    }
+
+    .sessao-feedbacks {
+        margin-bottom: 140px;
+    }
 }
 
 @media (max-width: 470px) {
@@ -522,6 +579,11 @@ footer {
 
     .img-logo {
         width: 120px;
+    }
+
+
+    .input-suporte {
+        width: 300px;
     }
 }
 
