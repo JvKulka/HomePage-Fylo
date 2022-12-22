@@ -7,14 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="components/style.css">
     <link rel="stylesheet" href="components/fonts/fonts.css">
-
     <script src="https://kit.fontawesome.com/37fcbc67a8.js" crossorigin="anonymous"></script>
+    <script> document.documentElement.className += ' js'; </script>
+    <!--Script para compatibilidade caso o js esteja desativado-->
     <title>Fylo</title>
 </head>
 
 <body>
 
-    <header>
+    <header class="js-scroll">
         <a href=""><img src="images/logo.svg" alt="logo" class="img-logo"></a>
         <nav id="nav">
             <button id="btn-mobile" aria-label="Abrir Menu" aria-haspopup="true" aria-controls="ul-header"
@@ -27,7 +28,7 @@
         </nav>
     </header>
 
-    <section class="sessao-inicial">
+    <section class="sessao-inicial js-scroll">
         <div class="div-inicial">
             <div>
                 <img src="images/illustration-intro.png" alt="img-inicial" class="img-centralizada img-inicial">
@@ -45,7 +46,7 @@
         </div>
     </section>
 
-    <section class="sessao-inf">
+    <section class="sessao-inf js-scroll">
         <div class="div-pai">
             <div class="div-inf">
                 <div class="block-inf">
@@ -85,7 +86,7 @@
         </div>
     </section>
 
-    <section class="sessao-works">
+    <section class="sessao-works js-scroll">
         <div class="div-pai-works">
             <div class="div-img-works">
                 <img src="images/illustration-stay-productive.png" alt="" class="img-centralizada">
@@ -106,7 +107,7 @@
         </div>
     </section>
 
-    <section class="sessao-feedbacks">
+    <section class="sessao-feedbacks js-scroll">
         <div class="div-feedbacks">
             <div class="div-card"> <!-- Primeiro Card -->
                 <p class="p-feedbacks">"Fylo has improved our team productivity by an order of magnitude. Since
@@ -153,7 +154,7 @@
         </div>
     </section>
 
-    <section class="sessao-suporte">
+    <section class="sessao-suporte js-scroll">
         <div class="div-pai">
             <div class="card-suporte">
                 <h1 class="h1-suporte">Get early access today</h1>

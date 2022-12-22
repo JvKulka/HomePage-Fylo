@@ -550,7 +550,6 @@ footer {
         border: none;
         color: white;
         font-size: 25px;
-        transition: 0.5s;
     }
 
     .ul-header {
@@ -624,4 +623,20 @@ footer {
     .sessao-inf {
         height: 125rem;
     }
+}
+
+/* JAVASCRIPT */
+
+/* Animação do scroll */
+
+.js .js-scroll {
+    opacity: 0;
+    transform: translate3d(-30px, 0, 0);
+    transition: 0.7s;
+}
+
+.js .js-scroll.ativo {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    transition: 0.7s;
 }
