@@ -581,8 +581,20 @@ footer {
         width: 140px;
     }
 
+    .sessao-inf {
+        margin-bottom: -80px;
+    }
+
+    .sessao-works {
+        height: 41rem;
+    }
+
     .sessao-feedbacks {
-        margin-bottom: 140px;
+        margin-bottom: 50px;
+    }
+
+    .sessao-inicial {
+        height: 42rem;
     }
 }
 
